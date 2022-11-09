@@ -1,18 +1,18 @@
 
 <div class="contenedor">
+    <h2 class="text-center">VEHICULOS ULTIMO MODELOS</h2>
 
-
-    <button (click)="mostrar=!mostrar" class="btn btn-outline-primary btn-block" value="Mostrar">Mostrar</button>
+    <button (click)="mostrar=!mostrar" class="btn  btn-block" value="Mostrar">Mostrar/Ocular</button>
     
     <hr>
     <div *ngIf="mostrar" class="card">
         <h5 class="card-header">Vehículos</h5>
         <div class="card-body">
-          <h5 class="card-title">Lista de vehículo</h5>
+          <h5 class="card-title">Lista de vehículos</h5>
           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
           <div class="table-responsive">
             <table class="table">
-                <thead>
+                <thead class="thead-light">
                     <tr>
                         <th scope="col">Imagen</th>
                         <th scope="col">Marca</th>
@@ -43,3 +43,4 @@
 <img src="../../../assets/nissan-ft.jpg" alt="">
 <img src="../../../assets/ram.jpg" alt=""> -->
 </div><!--fin contenedor-->
+<br>

@@ -4,7 +4,7 @@
 }
 
 .img{
-    width: 300px;
+    width: 20%;
     height: 100%;
 }
 
@@ -17,3 +17,24 @@ tr, td{
     align-items: center;
     align-content: center;
 }
+
+td:hover,tr:hover{
+    background-color: #fff7d6;
+    
+}
+/* 
+th{
+    border-bottom: 2px solid #ffc300 !important;
+    border-top: 1px solid #ffc300 !important;
+} */
+
+.btn{
+    background-color: #ffc300;
+    color: #fff;
+    border: 2 px solid #ffc300;
+}
+
+.btn:hover{
+    background-color: #f5da6f;
+}
+
